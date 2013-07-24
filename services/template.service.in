@@ -1,0 +1,16 @@
+[Unit]
+Description=${DESC}
+After=${AFTER_TARGETS}
+
+[Service]
+Type=${TYPE}
+User=${USER}
+Group=${GROUP}
+PIDFile=${PID}
+ExecStartPre=
+ExecStart=
+ExecReload=
+ExecStop=
+
+[Install]
+WantedBy=${WANTEDBY_TARGETS}
